@@ -6,6 +6,6 @@ def run_task(cls):
     cls.run()
 
 if __name__ == "__main__":
-    tasks = [day5.Ex9()]
+    tasks = [day6.Day6()]
     for task in tasks:
         print("Name: {0}\nValue: {1}\n".format(task.name, task.run()))
